@@ -125,7 +125,7 @@ int main(int argc, char** argv) {
 			break;
 
 		case 0x6000: //Output
-			outputFile << AC;
+			outputFile << AC << endl;
 			//cout << AC << endl;
 			break;
 
