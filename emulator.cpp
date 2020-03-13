@@ -126,8 +126,8 @@ int main(int argc, char** argv) {
 			break;
 
 		case 0x6000: //Output
-			//outputFile << AC;
-			cout << AC << endl;
+			outputFile << AC;
+			//cout << AC << endl;
 			break;
 
 		case 0x7000: //Halt
