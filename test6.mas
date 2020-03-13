@@ -1,0 +1,34 @@
+/Dawson Butts
+/Test for all the skip instructions
+/should output 3, 4, 5
+
+
+	Load X
+        SkipEq0
+        Output
+        Add A
+        Output
+X,	DEC 0
+A, 	DEC 3
+
+	Load Y
+        SkipLt0
+        Output
+        Add B
+        Output
+Y,	DEC -2
+B, 	DEC 6
+
+	Load Z
+        SkipGt0
+        Output
+        Add C
+        Output
+        Halt
+Z,	DEC 3
+C, 	DEC 2
+
+
+
+
+

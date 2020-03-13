@@ -1,0 +1,26 @@
+/Dawson Butts
+/Test of the exam program
+/should output 10
+
+	Load X
+	Store Tmp
+	Load Y	
+	Store t2
+L0, 	Load Tmp
+	Subt _1
+	Store Tmp
+	SkipGt0
+	Jump L1
+	Load t2
+	Add Y
+	Store t2
+	Jump L0
+L1,	Load t2
+	Output
+	Halt
+X,	DEC 2
+Y,	DEC 5
+_1,	DEC 1
+Tmp, 	DEC 20	
+t2, 	DEC 0
+
