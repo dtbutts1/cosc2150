@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 	for (i = 1; i < argc; i++) {
 		if (strcmp(argv[i], "--in") == 0) {
 			if ((i + 1) < argc) {
-				in = argv[i];
+				in = argv[i+1];
 				i++;
 			}
 			else {
@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
 		}
 		else if (strcmp(argv[i], "--out") == 0) {
 			if ((i + 1) < argc) {
-				out = argv[i];
+				out = argv[i+1];
 				i++;
 			}
 			else {
@@ -64,7 +64,6 @@ int main(int argc, char** argv) {
 
 
 	ifstream inputFile;
-	//inputFile.open(in);
 	inputFile.open(in);
 	
 	while (inputFile >> instruction) {
