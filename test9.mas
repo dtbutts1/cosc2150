@@ -1,0 +1,13 @@
+/Dawson Butts
+/test for JnS
+/Should output 21
+
+	JnS Xroutine
+	Halt
+
+Xroutine, DEC 000 
+        Load X
+        Output
+        JumpI Xroutine
+
+X, 	DEC 21

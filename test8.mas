@@ -1,0 +1,11 @@
+/Dawson Butts
+/test for JumpI
+/should output 10
+        Load X
+  	JumpI L1
+   	Add Y
+        Output 
+    	Halt
+L1,	DEC 3
+X,	DEC 10
+Y, 	DEC 10

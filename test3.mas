@@ -1,0 +1,11 @@
+/Dawson Butts
+/test for LoadI
+
+	LoadI X
+	Output
+	Halt
+X,	DEC 4
+	DEC 9
+
+
+ 

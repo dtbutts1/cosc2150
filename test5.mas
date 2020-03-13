@@ -1,0 +1,11 @@
+/Dawson Butts
+/Test for StoreI
+	Load X
+	StoreI Y
+	Load Z
+  	Output
+	Halt
+X,	DEC 5
+Y,  	DEC 7
+Z,	DEC 3
+

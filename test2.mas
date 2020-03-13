@@ -1,0 +1,17 @@
+/Dawson Butts
+/test for Store, Add, Subt, and Clear
+	Load X
+    	Store B
+    	Load B
+    	Output
+   	Add Y
+	Output
+   	Subt Z
+   	Output
+   	Clear 
+   	Output
+   	Halt
+X,  	DEC 4   
+Y, 	DEC 6
+Z, 	DEC 5
+B, 	DEC 7

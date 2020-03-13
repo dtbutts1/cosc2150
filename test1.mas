@@ -1,0 +1,9 @@
+/Dawson Butts
+/Test for Load, Output, Input, and Halt
+
+        Load X
+        Output
+	Input Y
+	Output
+        Halt
+X,      DEC 4   

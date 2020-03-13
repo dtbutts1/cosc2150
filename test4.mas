@@ -1,0 +1,10 @@
+/Dawson Butts
+/test for AddI
+
+ 	Load X
+	AddI Y
+	Output
+	Halt
+X,	DEC 5
+Y,  	DEC 6
+	DEC 3
