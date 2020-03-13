@@ -1,0 +1,48 @@
+Overview of Homework 4
+By Dawson Butts
+
+Files		Description
+------------    -------------------------------------------
+overview.txt	description of all the uploaded files
+emulator.cpp	driver code for emulating the MARIE machine
+emulator.exe	executable code for interpreting a text.mas file
+
+test1.mas	test of the load, output, input, and halt instructions
+test1.hex	hex code of the test file
+test1.out	output of the program - should be: 4, Input, 6
+
+test2.mas	test of the store, add, subt, and clear instructions
+test2.hex	hex code of the test file
+test2.out	output of the program - should be: 4, 10, 5, 0
+
+test3.mas	test of the LoadI instruction
+test3.hex	hex code of the test file
+test3.out	output of the program - should be: 9
+
+test4.mas	test of the AddI instruction
+test4.hex	hex code of the test file
+test4.out	output of the program - should be: 8
+
+test5.mas	test of the StoreI instruction
+test5.hex	hex code of the test file
+test5.out	output of the program - should be: 5
+
+test6.mas	test of each of the Skip instructions
+test6.hex	hex code of the test file
+test6.out	output of the program - should be: 3, 4, 5
+
+test7.mas	test for the Jump instruction
+test7.hex	hex code of the test file
+test7.out	output of the program - should be: 10
+
+test8.mas	test for the JumpI instruction
+test8.hex	hex code of the test file
+test8.out	output of the program - should be: 10
+
+test9.mas	test for the JnS instruction
+test9.hex	hex code of the test file
+test9.out	output of the program - should be: 21
+
+test10.mas	test of the exam question program
+test10.hex	hex code of the test file
+test10.out	output of the program - should be: 10
