@@ -1,0 +1,7 @@
+/should output 15
+	Load X
+	Add Y
+	Output
+	Halt
+X,	DEC 10	
+Y,	DEC 5
